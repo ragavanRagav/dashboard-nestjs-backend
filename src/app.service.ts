@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  data=[
+  records=[
     {
       "updated": 1611499761142,
       "cases": 22503873,
@@ -356,6 +356,6 @@ export class AppService {
     }
   ];
   getData(){
-    return [...this.data];
+    return [...this.records];
   }
 }
