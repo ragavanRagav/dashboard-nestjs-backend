@@ -351,7 +351,7 @@ export class AppService {
         "Samoa",
         "Solomon Islands",
         "Vanuatu",
-        "Wallis and Futuna"
+        "Wallis "
       ]
     }
   ];
